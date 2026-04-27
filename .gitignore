@@ -1,0 +1,17 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+results/figures/*
+!results/figures/README.md
+
+*.h5ad
+*.h5mu
+*.h5
+*.loom
+*.zarr/
+*.csv.gz
+*.tsv.gz
+*.parquet
+*.pkl
+*.joblib
