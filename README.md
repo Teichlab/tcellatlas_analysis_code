@@ -1,4 +1,4 @@
-# Pan-Infection Atlas analysis code
+# Pan-Infection T Cell Atlas: Analysis and Code
 
 This repository contains reviewer-facing analysis and figure-generation notebooks supporting the Pan-Infection Atlas manuscript and the associated Pan-Infection T cell atlas website: https://tcellatlas.org.
 
