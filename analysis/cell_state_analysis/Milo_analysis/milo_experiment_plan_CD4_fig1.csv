@@ -1,0 +1,10 @@
+,id,tissue_context,compare_variable,comparison_type,group_1,group_2,subset_condition,correct_for,formula
+0,0,PBMCs,severity_stage_final,1-vs-1,Bacterial_infection,Healthy,"tissue == 'PBMCs' and pathogen in ['Bacterial_infection', 'Healthy']","['study', 'modalities', 'isolation']",~ study + modalities + isolation + severity_stage_final
+1,1,PBMCs,severity_stage_final,1-vs-1,Plasmodium_falciparum,Healthy,"tissue == 'PBMCs' and pathogen in ['Plasmodium_falciparum', 'Healthy']","['study', 'modalities', 'isolation']",~ study + modalities + isolation + severity_stage_final
+2,2,PBMCs,severity_stage_final,1-vs-1,SARS_CoV_2,Healthy,"tissue == 'PBMCs' and pathogen in ['SARS_CoV_2', 'Healthy']","['study', 'modalities', 'isolation']",~ study + modalities + isolation + severity_stage_final
+3,3,PBMCs,severity_stage_final,1-vs-1,Dengue_virus,Healthy,"tissue == 'PBMCs' and pathogen in ['Dengue_virus', 'Healthy']","['study', 'modalities', 'isolation']",~ study + modalities + isolation + severity_stage_final
+4,4,PBMCs,severity_stage_final,1-vs-1,HIV_acute,Healthy,"tissue == 'PBMCs' and pathogen in ['HIV', 'Healthy']","['study', 'modalities', 'isolation']",~ study + modalities + isolation + severity_stage_final
+5,5,PBMCs,severity_stage_final,1-vs-1,HIV_chronic,Healthy,"tissue == 'PBMCs' and pathogen in ['HIV', 'Healthy']","['study', 'modalities', 'isolation']",~ study + modalities + isolation + severity_stage_final
+6,6,PBMCs,severity_stage_final,1-vs-1,Tuberculosis,Healthy,"tissue == 'PBMCs' and pathogen in ['Tuberculosis_CASE', 'Tuberculosis_CONTROL', 'Healthy']","['study', 'modalities', 'isolation']",~ study + modalities + isolation + severity_stage_final
+7,7,PBMCs,severity_stage_final,1-vs-1,Influenza_acute,Healthy,"tissue == 'PBMCs' and pathogen in ['Influenza_Primary', 'Healthy']","['study', 'modalities', 'isolation']",~ study + modalities + isolation + severity_stage_final
+8,8,PBMCs,severity_stage_final,1-vs-1,HBV_chronic,Healthy,"tissue == 'PBMCs' and pathogen in ['HBV', 'Healthy']","['study', 'modalities', 'isolation']",~ study + modalities + isolation + severity_stage_final
