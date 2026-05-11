@@ -30,4 +30,4 @@ Large input data and generated outputs are not tracked in git. Controlled-access
 ## Related resources
 
 - Pan-Infection T cell atlas website: https://tcellatlas.org
-- Cell2Specificity: https://github.com/lisadratva/cell2specificity
+- Cell2Specificity: https://github.com/Teichlab/cell2specificity
